@@ -140,4 +140,8 @@ exercism () {
         cd "${out[-1]}" || return 1
     fi
 }
+
+# Config alias for dotfiles repo
 alias config='/usr/bin/git --git-dir=/home/potent/.cfg/ --work-tree=/home/potent'
+
+export PATH=/home/potent/vim/bin:$PATH

@@ -13,7 +13,13 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'pangloss/vim-javascript'
 Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+let g:coc_global_extensions = [
+  \ 'coc-tsserver'
+  \ ]
 call plug#end()
+
+" Temp disable youcompleteme
+let g:loaded_youcompleteme=1
 
 " Turn on syntax highlighting
 syntax on
