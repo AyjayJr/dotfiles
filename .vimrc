@@ -5,7 +5,7 @@ set nocompatible
 filetype off
 
 " Load plugins here 
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 Plug 'valloric/youcompleteme'
 Plug 'scrooloose/nerdtree'
 Plug 'morhetz/gruvbox'
