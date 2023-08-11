@@ -4,6 +4,9 @@ case $- in
       *) return;;
 esac
 
+# colored prompts
+force_color_prompt=yes
+
 # set vim as default editor
 export VISUAL=vim
 export EDITOR="$VISUAL"
